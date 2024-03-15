@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: orange;
+}
+header nav ul li {
+  list-style: none;
+  display: inline-block;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: red;
+}
+
+h1 {
+  color: blue;
+  font-family: cursive;
+}
+
+main {
+  color: red;
+}
+
+footer {
+  color: red;
+}
+
+main {
+  background-color: green;
+}
+
+/*# sourceMappingURL=estilos.css.map */

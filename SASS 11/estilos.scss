@@ -1,0 +1,55 @@
+// la sintaxis es la misma que en css solo que se ve compilado
+// $nombredevariable: valor; las 
+// las variables se declaran con signo $
+// UNIWEBSIDAD TIPOS DE DATOS QUE PUEDE ALMACENAR UNA VARIABLE
+
+$color1: red;
+$color2: blue;
+$color3: green;
+
+
+
+// fuentes 
+
+$font1: cursive;
+
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: orange;
+
+    nav{
+
+        ul{
+
+            li{
+                list-style: none; 
+                display: inline-block;
+
+                a{
+                    text-decoration: none;
+                    color: $color1;
+                }
+            }
+        }
+    }
+}
+
+
+h1{
+    color: $color2;
+    font-family: $font1;
+}
+main {
+    color: $color1;
+}
+footer {
+color: $color1;
+}
+main {
+    background-color: $color3;
+}
+
+// @import "menu"; con esta funcion lo que podemos hacer es traer el codigo en sass de otro archivo x ejemplo de un archivo menu.sass 
